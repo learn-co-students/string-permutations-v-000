@@ -1,3 +1,6 @@
+// https://initjs.org/all-permutations-of-a-set-f1be174c79f8
+// https://js-algorithms.tutorialhorizon.com/2015/11/20/generate-permutations-backtracking/
+
 function findAllPermutations(str) {
   const results = [];
 
