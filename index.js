@@ -7,9 +7,9 @@ function findAllPermutations(string) {
 
   for(let i = 0; i < string.length; i++) {
     let char = string[i];
-    let remaindingChars = string.slice(0, i) + string.slice(i + 1);
+    let remainingChars = string.slice(0, i) + string.slice(i + 1);
     
-    for (let permutation of findAllPermutations(remaindingChars)) {
+    for (let permutation of findAllPermutations(remainingChars)) {
       permutations.push(char + permutation);
     }
   }
